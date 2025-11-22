@@ -300,10 +300,10 @@ function App() {
         </div>
 
         {/* Formulaire d'ajout */}
-        <div className={`flex gap-3 ${isMobile ? 'flex-col' : 'flex-row'}`}>
+        <div className={`flex gap-3 ${isMobile ? 'flex-col' : 'flex-row '} `}>
           <input 
             type="text"
-            className="input input-bordered flex-1" 
+            className="input input-bordered flex-1 w-full" 
             placeholder="Ajouter une tâche..."
             value={input}
             onChange={(e) => setInput(e.target.value)}
